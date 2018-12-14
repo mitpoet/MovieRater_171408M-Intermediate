@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Name"/>
+
+    <EditText android:id="@+id/etName"
+              android:hint="Enter movie name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Description"/>
+
+    <EditText android:id="@+id/etDescription"
+              android:hint="Enter description"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/etinvisible"
+              android:layout_height="wrap_content"
+              android:text="Language"/>
+
+
+
+    <RadioGroup android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiogrp1">
+
+        <RadioButton android:id="@+id/etLanguage"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="English"/>
+
+        <RadioButton android:id="@+id/rbtnButton1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:checked="true"
+                     android:text="English"/>
+
+        <RadioButton android:id="@+id/rbtnButton2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Chinese"/>
+
+        <RadioButton android:id="@+id/rbtnButton3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Malay"/>
+
+        <RadioButton android:id="@+id/rbtnButton4"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Tamil"/>
+
+    </RadioGroup>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Release Date"/>
+
+    <EditText android:id="@+id/etDate"
+              android:hint="Enter date"
+              android:inputType="date"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+    <CheckBox android:id="@+id/etChkbox1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Not suitable for all audience "/>
+
+    <CheckBox android:id="@+id/etGone1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+    />
+
+    <CheckBox android:id="@+id/etGone2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+    />
+    <CheckBox android:id="@+id/etGone3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="yes"
+    />
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+    >
+        <CheckBox android:id="@+id/etChkbox2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Violence "/>
+
+        <CheckBox android:id="@+id/etChkbox3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Language used "/>
+    </LinearLayout>
+
+
+</LinearLayout>

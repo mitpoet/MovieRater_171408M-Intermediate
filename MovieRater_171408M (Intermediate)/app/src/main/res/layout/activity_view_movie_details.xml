@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".ViewMovieDetails">
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/musd_assignment"
+
+
+    />
+
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="13dp"
+              android:text="Title:"/>
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="19dp"
+              android:id="@+id/tvTitle"
+              android:text=""/>
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="13dp"
+              android:text="Overview"/>
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="19dp"
+              android:id="@+id/tvOverview"
+              android:text="When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego Venom to save his life."/>
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="13dp"
+              android:text="Review"/>
+
+    <RatingBar android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:isIndicator="true"
+               android:id="@+id/tvRating"
+               android:visibility="gone"
+    />
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="19dp"
+              android:id="@+id/tvReview"
+              android:text="No reviews yet. \n Long press here to add your review"
+    />
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="13dp"
+              android:text="Language"/>
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="19dp"
+              android:id="@+id/tvLanguage"
+              android:text="English"/>
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="13dp"
+              android:text="Release date"/>
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="19dp"
+              android:id="@+id/tvReleaseDate"
+              />
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="13dp"
+              android:text="Suitable for children below 13"/>
+
+    <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="19dp"
+              android:id="@+id/tvAge"
+              />
+</LinearLayout>
